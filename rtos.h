@@ -33,6 +33,7 @@ typedef uint64_t rtos_tick_t;
  * @param none
  * @retval none
  */
+///
 void rtos_start_scheduler(void);
 
 /*!
@@ -65,7 +66,7 @@ void rtos_activate_task(rtos_task_handle_t task);
 /*!
  * @brief Returns the rtos global tick
  *
- * @param none
+ * @param no parameters
  * @retval clock value
  */
 rtos_tick_t rtos_get_clock(void);
@@ -80,3 +81,5 @@ rtos_tick_t rtos_get_clock(void);
 void rtos_delay(rtos_tick_t ticks);
 
 #endif /* SOURCE_RTOS_H_ */
+
+///
